@@ -1,6 +1,6 @@
 <section id="about-me" aria-labelledby="about-me-heading" class="mt-40">
 	<div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
-		<div class="lg:text-md flex max-w-prose flex-col space-y-7 text-base">
+		<div class="flex max-w-prose flex-col space-y-7 text-base lg:text-lg">
 			<h2 id="about-me-heading" class="mb-8 text-4xl font-bold">About me</h2>
 			<h3 class="text-xl font-semibold">Hi, I'm Rijad!</h3>
 			<p>
