@@ -50,5 +50,7 @@
 	<nav class="footer">
 		<a href="legal-notice.html">Legal Notice</a>
 		<a href="data-privacy.html">Data Privacy</a>
+		Vectors and icons by <a href="https://www.svgrepo.com" target="_blank">SVG Repo</a>
+		Modified code icon by https://creativecommons.org/licenses/by/4.0/
 	</nav>
 </footer>

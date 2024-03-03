@@ -65,9 +65,59 @@
 		</div>
 
 		<!-- Web2 Services container -->
-		<div class="web2-container">
-			<div class="icon" aria-hidden="true">
-				<!-- SVG or other content for the second animated icon -->
+		<div class="flex flex-col justify-between gap-20 lg:flex-row lg:gap-0">
+			<div class="flex justify-center align-middle" aria-hidden="true">
+				<svg
+					class="w-96 object-cover"
+					xmlns="http://www.w3.org/2000/svg"
+					id="eTUPenH8dM21"
+					shape-rendering="geometricPrecision"
+					text-rendering="geometricPrecision"
+					viewBox="0 0 24 24"
+				>
+					<style>
+						@keyframes eTUPenH8dM22_to__to {
+							0% {
+								transform: translate(5.994905px, 9.323356px);
+								animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+							}
+							to {
+								transform: translate(5.994905px, 13.323356px);
+							}
+						}
+						@keyframes eTUPenH8dM24_to__to {
+							0% {
+								transform: translate(18.005139px, 15.5px);
+								animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+							}
+							to {
+								transform: translate(18.005139px, 11.5px);
+							}
+						}
+					</style>
+					<g
+						style="animation:eTUPenH8dM22_to__to 2000ms linear 1 normal forwards"
+						transform="translate(5.995 9.323)"
+					>
+						<path
+							fill="#8a2be2"
+							d="M2.507-3.943a.75.75 0 0 0-1.004-1.114L-.234-3.494C-.97-2.83-1.581-2.28-2.001-1.783c-.44.524-.754 1.088-.754 1.783s.313 1.259.754 1.783c.42.498 1.03 1.048 1.767 1.71l1.737 1.564a.75.75 0 1 0 1.004-1.115L.81 2.416C.023 1.706-.509 1.226-.853.817-1.183.425-1.255.195-1.255 0s.072-.425.402-.817c.344-.41.876-.89 1.663-1.599l1.697-1.527Z"
+						/>
+					</g>
+					<path
+						fill="#8a2be2"
+						d="M14.18 4.275a.75.75 0 0 1 .532.918l-3.987 15a.75.75 0 1 1-1.45-.386l3.987-15a.75.75 0 0 1 .917-.532Z"
+					/>
+					<g
+						style="animation:eTUPenH8dM24_to__to 2000ms linear 1 normal forwards"
+						transform="translate(18.005 15.5)"
+					>
+						<path
+							fill="#8a2be2"
+							d="M-2.563-5.002a.75.75 0 0 1 1.06-.055L.234-3.494C.97-2.83 1.581-2.28 2.001-1.783c.44.525.754 1.088.754 1.783s-.313 1.259-.754 1.783C1.58 2.28.97 2.83.234 3.493l-1.737 1.565a.75.75 0 1 1-1.004-1.115L-.81 2.416C-.023 1.706.509 1.226.853.817c.33-.392.402-.622.402-.817S1.183-.425.853-.817c-.344-.41-.876-.89-1.663-1.599l-1.697-1.526a.75.75 0 0 1-.056-1.06Z"
+						/>
+					</g>
+				</svg>
 			</div>
 			<div class="text-container flex max-w-prose flex-col space-y-7 text-base lg:text-lg">
 				<h2 class="mb-8 text-4xl font-bold">Custom Web Development</h2>
