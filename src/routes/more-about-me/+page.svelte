@@ -3,7 +3,7 @@
 	<h2 class="text-xl font-semibold">Welcome to my corner of the internet</h2>
 
 	<div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
-		<div class="flex max-w-prose flex-col space-y-7">
+		<div class="prose flex flex-col space-y-7">
 			<p>
 				My name is Rijad, as you already know. I'm from Austria, Vienna and I fullfilled my dream of
 				becoming a self-employed, dedicated webdesigner, software engineer and blockchain developer!

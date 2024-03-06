@@ -44,7 +44,7 @@
 					</style>
 				</svg>
 			</div>
-			<div class="flex max-w-prose flex-col space-y-7 text-base lg:text-lg">
+			<div class="prose flex flex-col space-y-7 lg:prose-lg">
 				<h2 class="mb-8 text-4xl font-bold">Unlock the Potential of Web 3.0</h2>
 				<p>
 					Embark on the frontier of the digital revolution with my Web3 development services. I
@@ -119,7 +119,7 @@
 					</g>
 				</svg>
 			</div>
-			<div class="text-container flex max-w-prose flex-col space-y-7 text-base lg:text-lg">
+			<div class="prose flex flex-col space-y-7 lg:prose-lg">
 				<h2 class="mb-8 text-4xl font-bold">Custom Web Development</h2>
 				<p>
 					Experience the bespoke craftsmanship of solo web development for your Web needs.

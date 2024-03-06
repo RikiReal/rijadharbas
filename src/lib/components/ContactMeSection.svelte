@@ -1,7 +1,7 @@
 <section id="contact-me" aria-labelledby="contact-heading">
 	<h2 id="contact-heading" class="mb-8 text-4xl font-bold">Let's have a talk</h2>
 	<div class="grid grid-cols-1 lg:grid-cols-2">
-		<div class="flex max-w-prose flex-col space-y-7 text-base lg:text-lg">
+		<div class="prose flex flex-col space-y-7 lg:prose-lg">
 			<!-- Contact invitation text -->
 			<p>
 				Got a project in mind or just want to say hi? Let's make something amazing together. Reach
