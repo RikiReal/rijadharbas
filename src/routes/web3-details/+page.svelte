@@ -27,8 +27,10 @@
 		</ul>
 		<p>
 			I am dedicated to propelling your projects into the forefront of digital innovation. If you're
-			set to make an impact with Web3, <a href="/#contact-me" class="font-bold">let's connect</a> and
-			shape the decentralized future.
+			set to make an impact with Web3, let's connect and shape the decentralized future.
 		</p>
+		<div class="flex justify-start">
+			<a href="/#contact-me" class="btn btn-primary">Contact Me!</a>
+		</div>
 	</article>
 </main>

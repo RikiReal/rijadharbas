@@ -28,8 +28,11 @@
 		<p>
 			My approach is backend-first, ensuring your website's engine runs smoothly, so the user
 			experience is seamless on the frontend. If you need a dependable online presence that stands
-			the test of time, <a href="/#contact-me" class="font-bold">get in touch</a> and let's build a solid
+			the test of time, get in touch and let's build a solid
 			foundation for your success.
 		</p>
+		<div class="flex justify-start">
+			<a href="/#contact-me" class="btn btn-primary">Contact Me!</a>
+		</div>
 	</article>
 </main>
