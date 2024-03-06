@@ -1,0 +1,38 @@
+<main class="mx-5 mt-20 flex min-h-screen flex-col space-y-7 lg:mx-80">
+	<h1 class="mb-8 text-4xl font-bold">Hi there, it's me again!</h1>
+	<h2 class="text-xl font-semibold">Welcome to my corner of the internet</h2>
+
+	<div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
+		<div class="flex max-w-prose flex-col space-y-7">
+			<p>
+				My name is Rijad, as you already know. I'm from Austria, Vienna and I fullfilled my dream of
+				becoming a self-employed, dedicated webdesigner, software engineer and blockchain developer!
+			</p>
+			<p>
+				I enjoy working with passionate people that want to make a difference and deliver an
+				excellent service or a great product. I stand firmly for being honest and meeting people on
+				eye level, and it's the guiding star for how I approach both my personal and professional
+				life.
+			</p>
+			<p>
+				When I'm not working on my business or coding, I'm studying at university, taking a long
+				walk along the Donau or enjoying a nice Wiener Melange with friends. I also enjoy cooking
+				and trying new recipes.
+			</p>
+			<p>
+				Want to chat about Web2/Web3 or interested in a potential collaboration? Drop me a line -
+				I'm always open to new connections and opportunities!
+			</p>
+			<div class="flex justify-start">
+				<a href="/#contact-me" class="btn btn-primary">Contact Me!</a>
+			</div>
+		</div>
+		<div class="flex items-center justify-center lg:justify-end">
+			<img
+				src="/portrait.jpg"
+				alt="A portrait of me"
+				class="max-w-xs rounded-lg object-cover lg:max-w-sm"
+			/>
+		</div>
+	</div>
+</main>
