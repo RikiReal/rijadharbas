@@ -1,10 +1,12 @@
-<section id="hero" class="grid min-h-screen grid-cols-1 md:grid-cols-2 gap-10">
+<section id="hero" class="grid min-h-screen grid-cols-1 gap-10 md:grid-cols-2 graph-border">
+	<div class="absolute -z-[100] h-full w-full bg-white"></div>
+
 	<div class="flex flex-col justify-center pl-8">
-		<h1 class="mb-5 font-sans text-5xl font-bold">Mission Statement</h1>
-		<h2 class="font-serif text-xl">Subtitle</h2>
+		<h1 class="mb-5 font-sans text-5xl font-bold">Embrace Web3 with Confidence</h1>
+		<h2 class="font-serif text-xl">Your Web3 developer you can <em>trust</em></h2>
 	</div>
-	<div class="flex flex-col align-middle justify-center">
-		<svg viewBox="110 110 283 283" xmlns="http://www.w3.org/2000/svg" class="mx-10 max-h-screen">
+	<div class="flex flex-col justify-center align-middle">
+		<svg viewBox="110 110 283 283" xmlns="http://www.w3.org/2000/svg" class="mx-10 max-h-[70vh]">
 			<g transform="matrix(1, 0, 0, 1, -39.99999943646503, 89.99999873204655)" id="node1-1">
 				<path
 					d="M 163 23 L 183 23 C 188.523 23 193 27.477 193 33 L 193 53 C 193 58.523 188.523 63 183 63 L 163 63 C 157.477 63 153 58.523 153 53 L 153 33 C 153 27.477 157.477 23 163 23 Z"

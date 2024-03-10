@@ -1,7 +1,7 @@
 <section id="services" aria-labelledby="services-heading">
-	<div class="grid grid-cols-1 gap-36 lg:grid-rows-2">
-		<div class="flex flex-col justify-between gap-20 lg:flex-row lg:gap-0">
-			<!-- Web3 Services container -->
+	<div class="grid grid-cols-1 gap-48 lg:grid-rows-2">
+		<!-- Web3 Services container -->
+		<div class="flex flex-col justify-center gap-20 md:mx-20 lg:flex-row 2xl:gap-56">
 			<div class="flex justify-center align-middle" aria-hidden="true">
 				<svg
 					class="w-96 object-cover"
@@ -44,7 +44,7 @@
 					</style>
 				</svg>
 			</div>
-			<div class="prose flex flex-col space-y-7 lg:prose-lg">
+			<div class="prose flex flex-col space-y-7 lg:prose-lg xl:prose-xl">
 				<h2 class="mb-8 text-4xl font-bold">Unlock the Potential of Web 3.0</h2>
 				<p>
 					Embark on the frontier of the digital revolution with my Web3 development services. I
@@ -52,9 +52,9 @@
 					Computer, delivering unparalleled security, scalability, and innovation.
 				</p>
 				<p>
-					Whether you're looking to tokenize assets, create a decentralized autonomous organization,
-					or simply bring your business into the blockchain era, we provide tailored solutions that
-					make the complex simple.
+					Whether you're looking to create a decentralized autonomous organization, or simply bring
+					your business into the blockchain era, I provide tailored solutions that make the complex
+					simple.
 				</p>
 				<p>Join us in paving the way for a decentralized future.</p>
 				<div class="flex justify-start gap-10">
@@ -65,7 +65,7 @@
 		</div>
 
 		<!-- Web2 Services container -->
-		<div class="flex flex-col justify-between gap-20 lg:flex-row lg:gap-0">
+		<div class="flex flex-col justify-center gap-20 md:mx-20 lg:flex-row 2xl:gap-56">
 			<div class="flex justify-center align-middle" aria-hidden="true">
 				<svg
 					class="w-96 object-cover"
@@ -119,7 +119,7 @@
 					</g>
 				</svg>
 			</div>
-			<div class="prose flex flex-col space-y-7 lg:prose-lg">
+			<div class="prose flex flex-col space-y-7 lg:prose-lg xl:prose-xl">
 				<h2 class="mb-8 text-4xl font-bold">Custom Web Development</h2>
 				<p>
 					Experience the bespoke craftsmanship of solo web development for your Web needs.

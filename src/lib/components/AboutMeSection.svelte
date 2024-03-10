@@ -1,6 +1,6 @@
 <section id="about-me" aria-labelledby="about-me-heading" class="mt-40">
-	<div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
-		<div class="prose flex flex-col space-y-7 lg:prose-lg">
+	<div class="flex flex-col justify-center gap-20 md:mx-20 lg:flex-row 2xl:gap-56">
+		<div class="prose flex flex-col space-y-7 lg:prose-lg xl:prose-xl">
 			<h2 id="about-me-heading" class="mb-8 text-4xl font-bold">About me</h2>
 			<h3 class="text-xl font-semibold">Hi, I'm Rijad!</h3>
 			<p>
@@ -20,7 +20,7 @@
 			<img
 				src="/portrait.jpg"
 				alt="A portrait of me"
-				class="max-w-xs rounded-lg object-cover lg:max-w-sm"
+				class="mx-5 rounded-lg object-cover sm:max-w-xs xl:max-w-sm"
 			/>
 		</div>
 	</div>

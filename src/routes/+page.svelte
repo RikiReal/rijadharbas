@@ -6,7 +6,7 @@
 </script>
 
 <HeroSection />
-<main class="mx-5 lg:mx-80 my-8 flex flex-col space-y-48">
+<main class="mx-5 my-52 flex flex-col space-y-96">
 	<AboutMeSection />
 	<ServicesOfferedSection />
 	<ContactMeSection />
