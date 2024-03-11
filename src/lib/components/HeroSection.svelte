@@ -1,4 +1,4 @@
-<section id="hero" class="grid min-h-screen grid-cols-1 gap-10 md:grid-cols-2 graph-border">
+<section id="hero" class="grid min-h-screen grid-cols-1 gap-10 md:grid-cols-2">
 	<div class="absolute -z-[100] h-full w-full bg-white"></div>
 
 	<div class="flex flex-col justify-center pl-8">
@@ -6,7 +6,7 @@
 		<h2 class="font-serif text-xl">Your Web3 developer you can <em>trust</em></h2>
 	</div>
 	<div class="flex flex-col justify-center align-middle">
-		<svg viewBox="110 110 283 283" xmlns="http://www.w3.org/2000/svg" class="mx-10 max-h-[70vh]">
+		<svg viewBox="110 110 283 283" xmlns="http://www.w3.org/2000/svg" class="mx-10 xl:max-h-[70vh]">
 			<g transform="matrix(1, 0, 0, 1, -39.99999943646503, 89.99999873204655)" id="node1-1">
 				<path
 					d="M 163 23 L 183 23 C 188.523 23 193 27.477 193 33 L 193 53 C 193 58.523 188.523 63 183 63 L 163 63 C 157.477 63 153 58.523 153 53 L 153 33 C 153 27.477 157.477 23 163 23 Z"
@@ -189,6 +189,24 @@
 			<path style="stroke: rgb(0, 0, 0);" d="M 273 250 L 350 250" id="line3-2" />
 			<path d="M 350 250 L 273 250" id="line3-2-overlay" />
 		</svg>
+	</div>
+
+	<div class="col-span-2 grid grid-cols-12">
+		<span class="col-span-12 col-start-1 grid w-full">
+			<svg
+				viewBox="0 0 1001 111"
+				xmlns="http://www.w3.org/2000/svg"
+				width="1001"
+				height="111"
+				class="col-span-12 col-start-1 row-start-1 -mb-1 h-full max-h-24 w-full self-end md:max-h-36"
+				preserveAspectRatio="none"
+			>
+				<path
+					style="fill: rgb(216, 216, 216); stroke: none;"
+					d="M -7.605 112.293 C -7.496 98.591 -7.929 48.345 -8.053 48.246 C 29.458 36.201 216.828 -3.086 300 0 C 419.416 4.43 510.508 35.284 600 54.276 C 824.297 101.877 1000.989 50.605 1001.803 55.108 L 1001.953 119.095"
+				/>
+			</svg>
+		</span>
 	</div>
 </section>
 
