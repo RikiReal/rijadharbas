@@ -11,7 +11,7 @@
 		</div>
 
 		<div class="navbar-end">
-			<div aria-hidden="true"  class="dropdown dropdown-end">
+			<div aria-hidden="true" class="dropdown dropdown-end">
 				<div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
 					<svg
 						viewBox="0 0 26 26"
@@ -47,11 +47,31 @@
 
 <slot />
 
-<footer class="footer">
+<footer class="footer justify-around bg-neutral p-10 text-neutral-content">
 	<nav>
-		<a href="legal-notice.html">Legal Notice</a>
-		<a href="data-privacy.html">Data Privacy</a>
-		Vectors and icons by <a href="https://www.svgrepo.com" target="_blank">SVG Repo</a>
-		Modified code icon by https://creativecommons.org/licenses/by/4.0/
+		<h6 class="footer-title">Legal</h6>
+		<a class="link-hover link" href="legal">Legal Notice</a>
+		<a class="link-hover link" href="https://www.svgrepo.com" target="_blank"
+			>Modified code brackets icon by SVG Repo</a
+		>
+		<!-- https://creativecommons.org/licenses/by/4.0/ -->
 	</nav>
+	<nav>
+		<h6 class="footer-title">Company</h6>
+		<a
+			class="link-hover link"
+			href="https://firmen.wko.at/rijad-harbas-rijad-harbas/wien/?firmaid=941629d1-79b4-4c04-a19c-6024d58c623c&suchbegriff=rijad%20harbas"
+			target="_blank">WKO Firmen A-Z</a
+		>
+		<a
+			class="link-hover link"
+			href="https://www.wkoecg.at/Ecg.aspx?FirmaID=2d2056f8-ea9b-478b-96d6-7fa6c348d5ee"
+		>
+			<img src="/ecg.jpg" alt="WKO ECG Banner" />
+		</a>
+	</nav>
+	<aside>
+		<p>Copyright © 2024 - All right reserved by Rijad Harbas</p>
+	</aside>
+	<!-- Hinzufügen was ich noch beachten muss wegen Websiten für WKO etc. -->
 </footer>
