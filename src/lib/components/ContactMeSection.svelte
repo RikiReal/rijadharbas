@@ -1,10 +1,10 @@
 <section id="contact-me" aria-labelledby="contact-heading" class="px-5">
 	<div class="flex flex-col items-center justify-start gap-20 md:mx-20 2xl:gap-56">
 		<div class="grid grid-cols-1 lg:grid-cols-2">
-			<h2 id="contact-heading" class="col-span-1 mb-8 text-4xl font-bold lg:col-span-2">
-				Let's have a talk
-			</h2>
 			<div class="prose flex flex-col space-y-7 lg:prose-lg xl:prose-xl">
+				<h2 id="contact-heading" class="mb-8 text-4xl font-bold">
+					Let's have a talk
+				</h2>
 				<!-- Contact invitation text -->
 				<p>
 					Got a project in mind or just want to say hi? Let's make something amazing together. Reach
@@ -37,8 +37,13 @@
 					I don't know yet how to integrate the form into my webpage and mail provider. 
 					I could maybe look into if mailchimp has an API that I can connect to and that sends new form submission to tutanota.
 				 -->
+
+			<div class="">
+				<div data-tf-live="01HRTPYHKX1F9Y8WS7PD3AS36Q"></div><script src="//embed.typeform.com/next/embed.js"></script>
+			</div>
+
 			<!-- Contact form -->
-			<form class="contact-form" action="your-server-side-script" method="POST">
+			<!-- <form class="contact-form" action="your-server-side-script" method="POST">
 				<div class="form-group">
 					<label for="firstname">Your Firstname</label>
 					<input type="text" id="firstname" name="firstname" required />
@@ -56,7 +61,7 @@
 					<textarea id="inquiry" name="inquiry" rows="4" required></textarea>
 				</div>
 				<button type="submit">Send</button>
-			</form>
+			</form> -->
 		</div>
 	</div>
 </section>

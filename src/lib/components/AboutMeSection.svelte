@@ -19,13 +19,13 @@
 		<div class="flex items-center justify-center lg:justify-end">
 			<div class="relative">
 				<div
-					class="absolute inset-0 translate-y-5 rounded-lg bg-sky-100 sm:max-w-xs xl:max-w-sm"
+					class="absolute inset-0 translate-y-5 -translate-x-5 rounded-lg bg-sky-100 sm:max-w-xs xl:max-w-sm"
 				></div>
 				<div class="relative">
 					<img
 						src="/portrait.webp"
 						alt="A portrait of me"
-						class="mx-5 rounded-lg object-cover sm:max-w-xs xl:max-w-sm"
+						class="rounded-lg object-cover sm:max-w-xs xl:max-w-sm"
 					/>
 				</div>
 			</div>
