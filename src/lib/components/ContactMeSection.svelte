@@ -1,4 +1,4 @@
-<section id="contact-me" aria-labelledby="contact-heading">
+<section id="contact-me" aria-labelledby="contact-heading" class="px-5">
 	<div class="flex flex-col items-center justify-start gap-20 md:mx-20 2xl:gap-56">
 		<div class="grid grid-cols-1 lg:grid-cols-2">
 			<h2 id="contact-heading" class="col-span-1 mb-8 text-4xl font-bold lg:col-span-2">

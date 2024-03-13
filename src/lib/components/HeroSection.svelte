@@ -1,5 +1,5 @@
 <section id="hero" class="grid min-h-screen grid-cols-1 gap-10 md:grid-cols-2">
-	<div class="absolute -z-[100] h-full w-full bg-white"></div>
+	<div class="absolute -z-[100] h-full w-full bg-yellow-50"></div>
 
 	<div class="flex flex-col justify-center pl-8">
 		<h1 class="mb-5 font-sans text-5xl font-bold">Embrace Web3 with Confidence</h1>
@@ -202,7 +202,7 @@
 				preserveAspectRatio="none"
 			>
 				<path
-					style="fill: rgb(216, 216, 216); stroke: none;"
+					style="fill: rgb(255, 255, 255); stroke: none;"
 					d="M -7.605 112.293 C -7.496 98.591 -7.929 48.345 -8.053 48.246 C 29.458 36.201 216.828 -3.086 300 0 C 419.416 4.43 510.508 35.284 600 54.276 C 824.297 101.877 1000.989 50.605 1001.803 55.108 L 1001.953 119.095"
 				/>
 			</svg>

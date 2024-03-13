@@ -1,4 +1,4 @@
-<section id="about-me" aria-labelledby="about-me-heading" class="mt-40">
+<section id="about-me" aria-labelledby="about-me-heading" class="mt-40 px-5">
 	<div class="flex flex-col justify-center gap-20 md:mx-20 lg:flex-row 2xl:gap-56">
 		<div class="prose flex flex-col space-y-7 lg:prose-lg xl:prose-xl">
 			<h2 id="about-me-heading" class="mb-8 text-4xl font-bold">About me</h2>
@@ -13,15 +13,22 @@
 			</p>
 			<div class="flex justify-start gap-10">
 				<a href="#contact-me" class="btn btn-primary">Contact Me!</a>
-				<a href="more-about-me" class="btn btn-neutral">More about me</a>
+				<a href="more-about-me" class="btn btn-secondary">More about me</a>
 			</div>
 		</div>
 		<div class="flex items-center justify-center lg:justify-end">
-			<img
-				src="/portrait.jpg"
-				alt="A portrait of me"
-				class="mx-5 rounded-lg object-cover sm:max-w-xs xl:max-w-sm"
-			/>
+			<div class="relative">
+				<div
+					class="absolute inset-0 translate-y-5 rounded-lg bg-sky-100 sm:max-w-xs xl:max-w-sm"
+				></div>
+				<div class="relative">
+					<img
+						src="/portrait.webp"
+						alt="A portrait of me"
+						class="mx-5 rounded-lg object-cover sm:max-w-xs xl:max-w-sm"
+					/>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>

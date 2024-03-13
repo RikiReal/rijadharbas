@@ -29,7 +29,7 @@
 		</div>
 		<div class="flex items-center justify-center lg:justify-end">
 			<img
-				src="/portrait.jpg"
+				src="/portrait.webp"
 				alt="A portrait of me"
 				class="max-w-xs rounded-lg object-cover lg:max-w-sm"
 			/>

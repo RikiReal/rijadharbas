@@ -1,4 +1,4 @@
-<section id="services" aria-labelledby="services-heading">
+<section id="services" aria-labelledby="services-heading" class="bg-sky-100 pt-20 pb-32 px-5">
 	<div class="grid grid-cols-1 gap-48 lg:grid-rows-2">
 		<!-- Web3 Services container -->
 		<div class="flex flex-col justify-center gap-20 md:mx-20 lg:flex-row 2xl:gap-56">
@@ -59,7 +59,7 @@
 				<p>Join us in paving the way for a decentralized future.</p>
 				<div class="flex justify-start gap-10">
 					<a href="#contact-me" class="btn btn-primary">Let's innovate!</a>
-					<a href="web3-details" class="btn btn-neutral">Details</a>
+					<a href="web3-details" class="btn btn-secondary">Details</a>
 				</div>
 			</div>
 		</div>
@@ -137,7 +137,7 @@
 				</p>
 				<div class="flex justify-start gap-10">
 					<a href="#contact-me" class="btn btn-primary">Let's build!</a>
-					<a href="web2-details" class="btn btn-neutral">Details</a>
+					<a href="web2-details" class="btn btn-secondary">Details</a>
 				</div>
 			</div>
 		</div>
