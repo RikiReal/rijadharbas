@@ -1,11 +1,13 @@
 <section id="hero" class="grid min-h-screen grid-cols-1 gap-10 md:grid-cols-2">
 	<div class="absolute -z-[100] h-full w-full bg-yellow-50"></div>
 
-	<div class="flex flex-col justify-center pl-8">
-		<h1 class="mb-5 font-sans text-5xl font-bold">Embrace Web3 with Confidence</h1>
-		<h2 class="font-serif text-xl">Your Web3 developer you can <em>trust</em></h2>
+	<div class="flex flex-col justify-center items-center pl-5">
+		<div>
+			<h1 class="mb-5 font-sans text-5xl font-bold">Embrace Web3 with Confidence</h1>
+			<h2 class="font-serif text-xl">Your Web3 developer you can <em>trust</em></h2>
+		</div>
 	</div>
-	<div class="flex flex-col justify-center align-middle">
+	<div class="hidden sm:flex flex-col justify-center items-center">
 		<svg viewBox="110 110 283 283" xmlns="http://www.w3.org/2000/svg" class="mx-10 xl:max-h-[70vh]">
 			<g transform="matrix(1, 0, 0, 1, -39.99999943646503, 89.99999873204655)" id="node1-1">
 				<path
