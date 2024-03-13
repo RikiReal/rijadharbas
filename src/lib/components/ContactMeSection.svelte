@@ -2,9 +2,7 @@
 	<div class="flex flex-col items-center justify-start gap-20 md:mx-20 2xl:gap-56">
 		<div class="grid grid-cols-1 lg:grid-cols-2">
 			<div class="prose flex flex-col space-y-7 lg:prose-lg xl:prose-xl">
-				<h2 id="contact-heading" class="mb-8 text-4xl font-bold">
-					Let's have a talk
-				</h2>
+				<h2 id="contact-heading" class="mb-8 text-4xl font-bold">Let's have a talk</h2>
 				<!-- Contact invitation text -->
 				<p>
 					Got a project in mind or just want to say hi? Let's make something amazing together. Reach
@@ -13,15 +11,27 @@
 
 				<!-- Social media links -->
 				<h3 class="text-xl font-semibold">Follow me!</h3>
-				<div class="flex justify-start gap-10">
-					<a href="your-social-media-link" aria-label="Follow on Social Media 1">
-						<img src="#" alt="Social Media 1" />
+				<div class="flex items-center justify-start gap-20">
+					<a
+						href="https://twitter.com/RijadICP?ref_src=twsrc%5Etfw"
+						class="twitter-follow-button"
+						data-size="large"
+						data-show-screen-name="false"
+						data-dnt="true"
+						aria-label="Follow @RijadICP on X"
+						data-show-count="false">Follow @RijadICP</a
+					>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+					<a
+						href="https://www.linkedin.com/in/rijad-harbas-198279260"
+						aria-label="Follow me on LinkedIn"
+						target="_blank"
+					>
+						<img class="h-10" src="/LI-In-Bug.png" alt="LinkedIn Logo" />
 					</a>
-					<a href="your-social-media-link" aria-label="Follow on Social Media 2">
-						<img src="#" alt="Social Media 2" />
-					</a>
-					<a href="your-social-media-link" aria-label="Follow on Social Media 3">
-						<img src="#" alt="Social Media 3" />
+					<a href="https://github.com/RikiReal" aria-label="Follow me on GitHub" target="_blank">
+						<img class="h-10" src="/github-mark.svg" alt="GitHub logo" />
 					</a>
 				</div>
 				<!-- ICP Banner (add link to canister around it) -->
@@ -33,45 +43,10 @@
 					/>
 				</div>
 			</div>
-			<!-- 
-					I don't know yet how to integrate the form into my webpage and mail provider. 
-					I could maybe look into if mailchimp has an API that I can connect to and that sends new form submission to tutanota.
-				 -->
-
 			<div class="">
-				<div data-tf-live="01HRTPYHKX1F9Y8WS7PD3AS36Q"></div><script src="//embed.typeform.com/next/embed.js"></script>
+				<div data-tf-live="01HRTPYHKX1F9Y8WS7PD3AS36Q"></div>
+				<script src="//embed.typeform.com/next/embed.js"></script>
 			</div>
-
-			<!-- Contact form -->
-			<!-- <form class="contact-form" action="your-server-side-script" method="POST">
-				<div class="form-group">
-					<label for="firstname">Your Firstname</label>
-					<input type="text" id="firstname" name="firstname" required />
-				</div>
-				<div class="form-group">
-					<label for="lastname">Your Lastname</label>
-					<input type="text" id="lastname" name="lastname" required />
-				</div>
-				<div class="form-group">
-					<label for="email">Your Email Address</label>
-					<input type="email" id="email" name="email" required />
-				</div>
-				<div class="form-group">
-					<label for="inquiry">Your Inquiry</label>
-					<textarea id="inquiry" name="inquiry" rows="4" required></textarea>
-				</div>
-				<button type="submit">Send</button>
-			</form> -->
 		</div>
 	</div>
 </section>
-
-<!-- <p>
-    https://tally.so/help/developer-resources
-
-
-    I could use tally - a free form builder tool and form provider.
-    However, the embed form option requires javascript to run, which some might not have enabled.
-
-    Instead, I could create a regular form and on my server submit it to tally by using http outcalls.
-</p> -->
