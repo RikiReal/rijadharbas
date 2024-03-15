@@ -2,6 +2,10 @@
 export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
+    fontFamily: {
+      serif: ["Arial", "Helvetica", "sans-serif"],
+      sans: ["Segoe UI", "Roboto", "Helvetica Neue", "Arial", "sans"]
+    }
   },
   daisyui: {
     themes: [

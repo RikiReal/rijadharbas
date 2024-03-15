@@ -11,7 +11,7 @@
 
 				<!-- Social media links -->
 				<h3 class="text-xl font-semibold">Follow me!</h3>
-				<div class="flex items-center justify-start gap-20">
+				<div class="flex items-center justify-between lg:justify-start lg:gap-20">
 					<a
 						href="https://twitter.com/RijadICP?ref_src=twsrc%5Etfw"
 						class="twitter-follow-button"
@@ -28,10 +28,10 @@
 						aria-label="Follow me on LinkedIn"
 						target="_blank"
 					>
-						<img class="h-10" src="/LI-In-Bug.png" alt="LinkedIn Logo" />
+						<img class="w-10 h-10" src="/LI-In-Bug.png" alt="LinkedIn Logo" />
 					</a>
 					<a href="https://github.com/RikiReal" aria-label="Follow me on GitHub" target="_blank">
-						<img class="h-10" src="/github-mark.svg" alt="GitHub logo" />
+						<img class="w-10 h-10" src="/github-mark.svg" alt="GitHub logo" />
 					</a>
 				</div>
 				<!-- ICP Banner (add link to canister around it) -->

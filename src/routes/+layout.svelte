@@ -6,7 +6,7 @@
 	<nav aria-labelledby="primary-navigation" class="navbar">
 		<div class="navbar-start">
 			<a href="/" class="flex-none">
-				<img src="/logo.svg" alt="Website logo" class="w-20 h-20" />
+				<img src="/logo.svg" alt="Website logo" class="w-10 h-10 lg:w-20 lg:h-20" />
 			</a>
 		</div>
 
@@ -36,10 +36,10 @@
 					<li><a href="/#contact-me">Contact</a></li>
 				</ul>
 			</div>
-			<ul id="primary-navigation" class="menu menu-horizontal hidden lg:flex">
-				<li><a href="/#about-me">About Me</a></li>
-				<li><a href="/#services">Services</a></li>
-				<li><a href="/#contact-me">Contact</a></li>
+			<ul id="primary-navigation" class="menu menu-horizontal hidden lg:flex gap-5">
+				<li><a href="/#about-me" class="btn btn-outline" >About Me</a></li>
+				<li><a href="/#services" class="btn btn-outline">Services</a></li>
+				<li><a href="/#contact-me" class="btn btn-outline">Contact</a></li>
 			</ul>
 		</div>
 	</nav>
