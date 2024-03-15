@@ -6,7 +6,7 @@
 	<nav aria-labelledby="primary-navigation" class="navbar">
 		<div class="navbar-start">
 			<a href="/" class="flex-none">
-				<img src="" alt="Logo" />
+				<img src="/logo.svg" alt="Website logo" class="w-20 h-20" />
 			</a>
 		</div>
 
