@@ -1,9 +1,8 @@
-<main class="mx-5 mt-20 flex min-h-screen flex-col space-y-7 lg:mx-80">
-	<h1 class="mb-8 text-4xl font-bold">Hi there, it's me again!</h1>
-	<h2 class="text-xl font-semibold">Welcome to my corner of the internet</h2>
-
-	<div class="grid grid-cols-1 gap-10 lg:grid-cols-2">
+<main class="my-20 min-h-screen px-5">
+	<div class="flex flex-col justify-center gap-40 lg:flex-row">
 		<div class="prose flex flex-col space-y-7">
+			<h1 class="mb-8 text-4xl font-bold">Hi there, it's me again!</h1>
+			<h2 class="text-xl font-semibold">Welcome to my corner of the internet</h2>
 			<p>
 				My name is Rijad, as you already know. I'm from Austria, Vienna and I fullfilled my dream of
 				becoming a self-employed, dedicated webdesigner, software engineer and blockchain developer!
@@ -31,7 +30,7 @@
 			<img
 				src="/portrait.webp"
 				alt="A portrait of me"
-				class="max-w-xs rounded-lg object-cover lg:max-w-sm"
+				class="rounded-lg object-cover sm:max-w-xs xl:max-w-sm"
 			/>
 		</div>
 	</div>

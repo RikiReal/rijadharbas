@@ -1,4 +1,4 @@
-<main class="mx-5 mt-20 flex min-h-screen flex-col space-y-7 lg:mx-80">
+<main class="mx-5 my-20 flex min-h-screen flex-col space-y-7 lg:mx-80">
 	<h1 class="mb-8 text-4xl font-bold">Web Development Services</h1>
 	<h2 class="text-xl font-semibold">Crafting Robust Online Solutions</h2>
 
