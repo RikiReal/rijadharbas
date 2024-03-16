@@ -1,4 +1,57 @@
-<section id="services" aria-labelledby="services-heading" class="bg-sky-100 pt-20 pb-32 px-5">
+<script lang="ts">
+	import { onMount } from 'svelte';
+
+	onMount(() => {
+		let isInitialRender = true;
+		const infinity: Element = document.querySelector('#animated-infinity')!;
+		const leftBracket: Element = document.querySelector('#left-bracket')!;
+		const rightBracket: Element = document.querySelector('#right-bracket')!;
+		const bracket: Element = document.querySelector('#bracket')!;
+		let infinityWasRendered = false;
+		let bracketsWereRendered = false;
+
+		const handleIntersection: IntersectionObserverCallback = (
+			entries: IntersectionObserverEntry[]
+		) => {
+			if (isInitialRender) {
+				isInitialRender = false;
+				return;
+			}
+			entries.forEach((e) => {
+				if (e.isIntersecting) {
+					switch (e.target.id) {
+						case 'bracket': {
+							if (!bracketsWereRendered) {
+								leftBracket.classList.add('left-bracket-animation');
+								rightBracket.classList.add('right-bracket-animation');
+								bracketsWereRendered = true;
+							}
+							break;
+						}
+						case 'animated-infinity': {
+							if (!infinityWasRendered) {
+								infinity.classList.add('infinity-line-animation');
+								infinityWasRendered = true;
+							}
+							break;
+						}
+					}
+				}
+			});
+		};
+		const options = {
+			root: null,
+			rootMargin: '0px',
+			threshold: 1.0
+		};
+		const iconObserver = new IntersectionObserver(handleIntersection, options);
+
+		iconObserver.observe(infinity);
+		iconObserver.observe(bracket);
+	});
+</script>
+
+<section id="services" aria-labelledby="services-heading" class="bg-sky-100 px-5 pb-32 pt-20">
 	<div class="grid grid-cols-1 gap-48 lg:grid-rows-2">
 		<!-- Web3 Services container -->
 		<div class="flex flex-col justify-center gap-20 md:mx-20 lg:flex-row 2xl:gap-56">
@@ -6,7 +59,6 @@
 				<svg
 					class="w-96 object-cover"
 					aria-hidden="true"
-					id="animated-infinity"
 					xmlns="http://www.w3.org/2000/svg"
 					viewBox="0 7.108 170.592 71.08"
 				>
@@ -27,16 +79,17 @@
 					<path
 						d="M85.382 42.675s21.192-28.501 42.599-28.459c21.407.042 35.623 14.258 35.623 28.474 0 14.216-14.186 28.35-35.54 28.414-21.354.064-42.648-28.414-42.648-28.414S64.122 14.258 42.768 14.258c-21.354 0-35.507 14.236-35.659 28.449C6.957 56.92 21.487 71.004 42.768 71.08c21.281.076 42.648-28.39 42.648-28.39l-.034-.015"
 						style="fill:none;stroke-width:13px;stroke-linejoin:round;paint-order:stroke;stroke:url(#a)"
-						class="NRfqEBQu_0"
+						id="animated-infinity"
+						class=""
 					>
 					</path>
 					<style data-made-with="vivus-instant">
-						.NRfqEBQu_0 {
+						.infinity-line-animation {
 							stroke-dasharray: 413 415;
 							stroke-dashoffset: 414;
-							animation: NRfqEBQu_draw 1200ms ease-out 0ms forwards;
+							animation: infinity-line_draw 1200ms ease-out 0ms forwards;
 						}
-						@keyframes NRfqEBQu_draw {
+						@keyframes infinity-line_draw {
 							100% {
 								stroke-dashoffset: 0;
 							}
@@ -70,13 +123,13 @@
 				<svg
 					class="w-96 object-cover"
 					xmlns="http://www.w3.org/2000/svg"
-					id="eTUPenH8dM21"
+					id="bracket"
 					shape-rendering="geometricPrecision"
 					text-rendering="geometricPrecision"
 					viewBox="0 0 24 24"
 				>
 					<style>
-						@keyframes eTUPenH8dM22_to__to {
+						@keyframes leftBracketAnimation_draw {
 							0% {
 								transform: translate(5.994905px, 9.323356px);
 								animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -85,7 +138,7 @@
 								transform: translate(5.994905px, 13.323356px);
 							}
 						}
-						@keyframes eTUPenH8dM24_to__to {
+						@keyframes rightBracketAnimation_draw {
 							0% {
 								transform: translate(18.005139px, 15.5px);
 								animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -94,11 +147,14 @@
 								transform: translate(18.005139px, 11.5px);
 							}
 						}
+						.left-bracket-animation {
+							animation: leftBracketAnimation_draw 2000ms linear 1 normal forwards;
+						}
+						.right-bracket-animation {
+							animation: rightBracketAnimation_draw 2000ms linear 1 normal forwards;
+						}
 					</style>
-					<g
-						style="animation:eTUPenH8dM22_to__to 2000ms linear 1 normal forwards"
-						transform="translate(5.995 9.323)"
-					>
+					<g transform="translate(5.995 9.323)" id="left-bracket">
 						<path
 							fill="#8a2be2"
 							d="M2.507-3.943a.75.75 0 0 0-1.004-1.114L-.234-3.494C-.97-2.83-1.581-2.28-2.001-1.783c-.44.524-.754 1.088-.754 1.783s.313 1.259.754 1.783c.42.498 1.03 1.048 1.767 1.71l1.737 1.564a.75.75 0 1 0 1.004-1.115L.81 2.416C.023 1.706-.509 1.226-.853.817-1.183.425-1.255.195-1.255 0s.072-.425.402-.817c.344-.41.876-.89 1.663-1.599l1.697-1.527Z"
@@ -108,10 +164,7 @@
 						fill="#8a2be2"
 						d="M14.18 4.275a.75.75 0 0 1 .532.918l-3.987 15a.75.75 0 1 1-1.45-.386l3.987-15a.75.75 0 0 1 .917-.532Z"
 					/>
-					<g
-						style="animation:eTUPenH8dM24_to__to 2000ms linear 1 normal forwards"
-						transform="translate(18.005 15.5)"
-					>
+					<g transform="translate(18.005 15.5)" id="right-bracket">
 						<path
 							fill="#8a2be2"
 							d="M-2.563-5.002a.75.75 0 0 1 1.06-.055L.234-3.494C.97-2.83 1.581-2.28 2.001-1.783c.44.525.754 1.088.754 1.783s-.313 1.259-.754 1.783C1.58 2.28.97 2.83.234 3.493l-1.737 1.565a.75.75 0 1 1-1.004-1.115L-.81 2.416C-.023 1.706.509 1.226.853.817c.33-.392.402-.622.402-.817S1.183-.425.853-.817c-.344-.41-.876-.89-1.663-1.599l-1.697-1.526a.75.75 0 0 1-.056-1.06Z"
@@ -143,9 +196,3 @@
 		</div>
 	</div>
 </section>
-
-<style>
-	.start-animation path {
-		animation: infinityDraw 1200ms ease-out forwards;
-	}
-</style>

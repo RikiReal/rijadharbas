@@ -6,7 +6,7 @@
 	<nav aria-labelledby="primary-navigation" class="navbar">
 		<div class="navbar-start">
 			<a href="/" class="flex-none">
-				<img src="/logo.svg" alt="Website logo" class="w-10 h-10 lg:w-20 lg:h-20" />
+				<img src="/logo.svg" alt="Website logo" class="h-10 w-10 lg:h-20 lg:w-20" />
 			</a>
 		</div>
 
@@ -36,8 +36,8 @@
 					<li><a href="/#contact-me">Contact</a></li>
 				</ul>
 			</div>
-			<ul id="primary-navigation" class="menu menu-horizontal hidden lg:flex gap-5">
-				<li><a href="/#about-me" class="btn btn-outline" >About Me</a></li>
+			<ul id="primary-navigation" class="menu menu-horizontal hidden gap-5 lg:flex">
+				<li><a href="/#about-me" class="btn btn-outline">About Me</a></li>
 				<li><a href="/#services" class="btn btn-outline">Services</a></li>
 				<li><a href="/#contact-me" class="btn btn-outline">Contact</a></li>
 			</ul>
@@ -66,6 +66,7 @@
 		<a
 			class="link-hover link"
 			href="https://www.wkoecg.at/Ecg.aspx?FirmaID=2d2056f8-ea9b-478b-96d6-7fa6c348d5ee"
+			target="_blank"
 		>
 			<img src="/ecg.jpg" alt="WKO ECG Banner" />
 		</a>
@@ -73,5 +74,4 @@
 	<aside>
 		<p>Copyright © 2024 - All right reserved by Rijad Harbas</p>
 	</aside>
-	<!-- Hinzufügen was ich noch beachten muss wegen Websiten für WKO etc. -->
 </footer>
