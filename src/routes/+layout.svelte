@@ -28,7 +28,10 @@
 						/>
 					</svg>
 				</div>
+				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+				<!-- We can't use <button> here because Safari has a bug that prevents the button from being focused. -->
 				<ul
+					tabindex="0"
 					class="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-100 p-2 shadow"
 				>
 					<li><a href="/#about-me">About Me</a></li>
